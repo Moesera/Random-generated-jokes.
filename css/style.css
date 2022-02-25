@@ -1,0 +1,113 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  margin: 0 auto;
+  background-color: lightslategray;
+}
+
+header {
+  background-color: lightgray;
+  padding: 10px;
+  border-bottom: solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.joke-box {
+  background-color: lightgray;
+  color: black;
+  border-style: solid;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.joke:hover {
+  margin: 10px;
+}
+
+.inner-box {
+  margin: 20px;
+}
+
+.error {
+  background-color: lightcoral;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: darkred;
+  color: darkred;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Contact page */
+.success {
+  border-style: solid;
+  border-radius: 5px;
+  border-color: darkgreen;
+  background-color: lightgreen;
+  color: darkgreen;
+  margin: 0 auto;
+  max-width: 400px;
+  padding-left: 10px;
+}
+
+.form-error {
+  color: red;
+  font-weight: bold;
+  font-size: 1em;
+  margin-top: 3px;
+  display: none;
+}
+
+.form-container {
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 400px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+}
+
+.form-container > button {
+  border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  width: 100px;
+  height: 30px;
+}
+
+input {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  width: 200px;
+  height: 30px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
