@@ -24,6 +24,7 @@ fetchJoke();
 
 function createHtml(json) {
   let deliveryJoke = json.delivery;
+  jokeContainer.innerHTML = "";
 
   if (json.delivery) {
     deliveryJoke;
@@ -42,7 +43,6 @@ function createHtml(json) {
                             <h3>Category: ${json.category}</h3>
                             <h4>Setup: ${jokeSetup}</h4>
                             <h4>Delivery: ${deliveryJoke}</h4>
-                            <h5>This is a ${json.type} joke</h5>
                             </div>`;
   titleHeader.innerHTML = `Joke about ${json.category}`;
 }
