@@ -1,5 +1,7 @@
-# Sigvel-js1-ca
+# Random generated jokes. 
 
-Javascript 1 CA
+Warning, there is dirty jokes and dark jokes.
 
-API: documentation https://jokeapi.dev/ .
+My Javascript_1 CA
+
+#### API: documentation https://jokeapi.dev/ .
